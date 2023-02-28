@@ -141,13 +141,15 @@ ul.portfolio--list {
   I can't figure out why.
 
   EDIT: Not sure why, but making padding on 
-  top and bottom = at least 31 px fixes it!
+  top and bottom = at least 38 px fixes it!
+  (At least on a 1440p monitor, it seems that it could break
+  if the viewport got even larger.)
 */
 
 ul.nav--list {
   list-style-type: none;
   margin: auto;
-  padding: 31px 0px;
+  padding: 38px 0px;
   overflow: hidden; /* Requirement-2.14 */
   display: flex; /* Requirement-2.12 */
   justify-content: center;
