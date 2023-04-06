@@ -211,11 +211,23 @@ div.mosaic--image--container {
   top: 100px;
 }
 
-div.space--image--container {
+div.space--image--container,
+div.league-app--image--container {
   display: flex;
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+div.league--app--image--container img {
+  height: 260px;
+  width: auto;
+  border-radius: 5%;
+}
+
+div.league--app--image--container img.league--responsive--img {
+  height: 440px;
+  width: auto;
 }
 
 /* Creating a more response iframe! */
